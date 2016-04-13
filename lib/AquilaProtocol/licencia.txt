@@ -1,0 +1,95 @@
+CONTRATO LIMITADO DE LICENCIA
+
+Usted ("Compañía" o "Usted") debe leer este Contrato Limitado de Licencia (Este
+"Contrato") detenidamente antes de descargar, instalar y/o usar cualquier
+software o contenido ("Software") adjunto. AL DESCARGAR, INSTALAR Y/O USAR
+CUALQUIER SOFTWARE O CONTENIDO, ESTÁ USTED EXPRESANDO SU CONFORMIDAD CON LOS
+TÉRMINOS DE ESTE CONTRATO. SI USTED NO ESTÁ DE ACUERDO CON LOS TÉRMINOS DE ESTE
+CONTRATO, ABSTÉNGASE DE DESCARGAR, INSTALAR/TERMINAR LA INSTALACIÓN DE, O USAR
+EL SOFTWARE O CONTENIDO.
+
+1. Concesión de Licencia. MAKERLAB concede a Compañía una licencia no exclusiva,
+no transferible y limitada: (a) para el uso del Software como una plataforma de
+desarrollo únicamente en conexión con un producto MAKERLAB ("Producto
+MAKERLAB"), (b) para modificar internamente la versión del código fuente del
+Software únicamente como sea necesario para implementar dicho Software en
+productos desarrollados por Compañía que incorporan un producto MAKERLAB
+("Productos de la Compañía"), y (c) para distribuir el Software únicamente como
+fueron implementados en Productos de la Compañía. Compañía no deberá usar el
+Software para cualquier otro propósito además de los autorizados específicamente
+aquí.
+
+2. Título. Entre las partes, MAKERLAB se reserva todos los derechos, título y
+propiedad, incluyendo todas las patentes, copyrights, secretos comerciales, y
+otra propiedad intelectual en y para el Software. Compañía está de acuerdo en
+tomar todas las medidas razonables para prevenir la distribución no autorizada
+del Software.
+
+3. Ningún otro derecho. Excepto como indicado expresamente aquí, este Contrato
+no concede a Compañía, por implicación, exclusión o de cualquier otra forma,
+ningún derecho a patentes, copyrights, secretos comerciales, nombres comerciales
+(sean registrados o no registrados), o cualquier otro derecho, franquicias o
+licencias respecto al Software. MAKERLAB no proporcionará ningún soporte o
+mantenimiento para el Software. Compañía será la única responsable en dar
+soporte a sus clientes, incluyendo revendedores y usuarios finales.
+
+4. Ausencia de Soporte y Renuncia de Garantía. MAKERLAB no está obligada a
+proporcionar o hacer disponible a Compañía ninguna información, software,
+información técnica, know-how, show-how, bug-fixes, o soporte extra. MAKERLAB se
+reserva el derecho de hacer cambios en el Software sin previo aviso. MAKERLAB
+PROVEE EL SOFTWARE A COMPAÑÍA "TAL CUAL", "CON TODOS LOS ERRORES", Y SIN NINGÚN
+TIPO DE GARANTÍA. MAKERLAB NO GARANTIZA QUE EL SOFTWARE ESTÉ COMPLETO,
+VERIFICADO O VALIDADO. MAKERLAB NO HACE NINGÚNA REPRESENTACIÓN DE QUE EL
+SOFTWARE ESTÁ LIBRE DE NINGÚN RECLAMO DE INFRACCIÓN, MAKERLAB NO HACE NINGÚN
+TIPO DE GARANTÍA, EXPRESA, IMPLICADA, ESTATUTARIA, CONTRACTUAL O DE CUALQUIER
+OTRA FORMA CON RESPECTO AL SOFTWARE, Y RENUNCIA EXPRESAMENTE A CUALQUIER
+GARANTÍA DE COMERCIALIZACIÓN, IDONEIDAD PARA UN FIN EN PARTICULAR, TÍTULO O NO
+INFRACCIÓN Y TODA GARANTÍA DERIVADA EN VIRTUD DE COSTUMBRE DE COMERCIO O CURSO
+DE GESTIÓN.
+
+5. Aviso y Protección. Compañía acuerda a no remover o destruir cualquier marca
+comercial, marcas o noticias de copyright contenidos en o con el Software o
+cualquier documentación relacionada.
+
+6. Exportación. Compañía reconoce que ciertas leyes y regulaciones pueden
+restringir la exportación y reexportación del Software. Compañía no exportará o
+reexportará ningún Software (incluyendo disquetes, documentación relacionada y/o
+cualquier periférico de hardware) en ninguna forma sin la autorización apropiada
+del gobierno.
+
+7. Terminación. La licencia terminará automáticamente si Compañía no cumple
+cualquiera de los términos y condiciones de la licencia. A la terminación por
+cualquier razón, Compañía destruirá o devolverá a MAKERLAB el Software
+inmediatamente, incluyendo toda documentación y todas las copias completas o
+parciales del Software.
+
+8. LIMITACIÓN DE RESPONSABILIDAD. MAKERLAB EN NINGÚN CASO SERÁ RESPONSABLE A
+COMPAÑÍA O CUALQUIER TERCERO POR CUALQUIER DAÑO CONSECUENTE, ESPECIAL, INDIRECTO
+O INCIDENTAL DERIVADOS DE O RELACIONADOS CON EL SOFTWARE O CUALQUIER OTRO
+ASPECTO DE ESTE CONTRATO, INCLUSO SI MAKERLAB FUERA INFORMADO DE LA POSIBILIDAD
+DE DICHO DAÑO. EN NINGÚN CASO LA RESPONSABILIDAD DE MAKERLAB SURGIENDO O
+RELACIONADA A ESTE CONTRATO DEBERÁ EXCEDER A LO MÁS DE MIL DOLARES
+ESTADOUNIDENSES (US$1,000) O EL PRECIO PAGADO POR COMPAÑÍA A MAKERLAB POR EL
+SOFTWARE.
+
+9. General. Este Contrato y todas las transacciones concluidas a continuación
+serán gobernadas por las leyes del estado de Yucatán, ya que tales leyes se
+aplican a los contratos celebrados y realizados totalmente en Yucatán por
+residentes de Yucatán. Cualquier litigación relacionada a este Contrato será
+sujeta a la jurisdicción exclusiva de las cortes del estado, ubicadas en Mérida,
+Yucatán, o las cortes federales ubicadas en México D.F. Si alguna disposición de
+este Acuerdo es considerada inválida, ilegal o inaplicable, dicha disposición se
+interpretará de manera tal que se convierta en válida y exigible con el fin de
+reflejar mejor a la intención de las partes en ponerse de acuerdo sobre el
+suministro en el primer lugar, y las demás disposiciones del presente Acuerdo
+continuarán en pleno vigor y efecto y no podrán de ninguna manera ser afectadas
+por tal determinación de invalidez, ilegalidad o inaplicabilidad.
+
+ESTE CONTRATO ES EL ACUERDO COMPLETO Y EXCLUSIVO ENTRE MAKERLAB Y COMPAÑÍA Y
+SUSTITUYE TADOS LAS COMUNICACIONES Y ACUERDOS ORALES Y ESCRITOS ANTERIORES ENTRE
+LAS PARTES RELACIONADAS CON EL OBJETO DE ESTE ACUERDO. NINGÚN OTRO TÉRMINO SERÁ
+ADJUDICABLE CONTRA MAKERLAB AL MENOS QUE MAKERLAB DÉ SU CONSENTIMIENTO EXPRESO
+POR ESCRITO, INCLUYENDO UNA RENUNCIA EXPRESA DE LOS TÉRMINOS DE ESTE CONTRATO.
+
+MAKERLAB INGENIERÍA E INNOVACIÓN SA DE CV Avenida Alemán entre 40 y 42, Plaza
+Hacienda, local 211.  C.P. 97209, Mérida, Yucatán. http://www.makerlab.mx
