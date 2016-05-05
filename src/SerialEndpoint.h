@@ -21,6 +21,8 @@ public:
   void begin();
   void loop();
   void send(uint16_t address, uint8_t *message, uint8_t len, uint8_t lqi, uint8_t rssi);
+  void sendAck();
+  void sendNack();
 };
 
 extern SerialEndpointClass SerialEndpoint;

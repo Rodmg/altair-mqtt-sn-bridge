@@ -3,20 +3,51 @@
 static SerialEndpointClass *self;
 static uint8_t recBuffer[SERIAL_BUFF_SIZE];
 
+void SerialEndpointClass::sendAck()
+{
+  // First, lqi and rssi
+  buffer[0] = 0;
+  buffer[1] = 0;
+  // Length, base encaspsulator len + original msg len
+  buffer[2] = 2;
+  // MsgType
+  buffer[3] = 0x01;
+
+  uint8_t size = buffer[2] + 2; // + lqi and rssi
+  size = appendCrc((char*)buffer, size);
+  slip.send((char*)buffer, size);
+}
+
+void SerialEndpointClass::sendNack()
+{
+  // First, lqi and rssi
+  buffer[0] = 0;
+  buffer[1] = 0;
+  // Length, base encaspsulator len + original msg len
+  buffer[2] = 2;
+  // MsgType
+  buffer[3] = 0x00;
+
+  uint8_t size = buffer[2] + 2; // + lqi and rssi
+  size = appendCrc((char*)buffer, size);
+  slip.send((char*)buffer, size);
+}
+
 static void meshSendConfirm(TxPacket *req)
 {
 	// Here, you could check req->status
 	// For knowing if the packet was succesfully sent.
+  self->sendAck();
 }
 
 static void attendSerial(char *data, uint8_t size)
 {
   StatusLeds.blinkTx();
   // Attend
-  if(size < 5) return; // bad data
+  if(size < 5) return self->sendNack(); // bad data
   //uint8_t capLen = data[0];
   uint8_t msgType = data[1];
-  if(msgType != 0xFE) return; // unsupported message
+  if(msgType != 0xFE) return self->sendNack(); // unsupported message
   //uint8_t borderRadius = data[2]; // not used
   uint16_t addr;
   addr = data[3] & 0x00FF;

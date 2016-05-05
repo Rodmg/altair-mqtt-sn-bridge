@@ -17,6 +17,13 @@
 
 	The frame is encapsulated inside a SLIP packet alongside 2 bytes of CRC at the end.
 
+	Custom additions to the protocol:
+
+		send ACK or NACK messages when receiving packet:
+
+		NACK -> MsgType "0x00"
+		ACK -> MsgType "0x01"
+
 	**Note:** When sending from forwarder to pc, it has 2 extra bytes at the begining corresponding to lqi and rssi
 
 */
