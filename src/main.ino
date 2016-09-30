@@ -32,19 +32,22 @@
 #include <Mesh.h>
 #include "SerialEndpoint.h"
 #include "StatusLeds.h"
+#include <avr/wdt.h>
 
 static bool receiveMessage(RxPacket *ind)
 {
 	// Toggle LED
 	StatusLeds.blinkRx();
 
-  SerialEndpoint.send(ind->srcAddr, ind->data, ind->size, ind->lqi, ind->rssi);
+	if(SerialEndpoint.pairMode) SerialEndpoint.sendPair(ind->srcAddr, ind->data, ind->size, ind->lqi, ind->rssi);
+  else SerialEndpoint.send(ind->srcAddr, ind->data, ind->size, ind->lqi, ind->rssi);
 
 	return true;
 }
 
 void yield()
 {
+	wdt_reset();
   Mesh.loop();
   StatusLeds.loop();
   SerialEndpoint.loop();
@@ -52,13 +55,17 @@ void yield()
 
 void setup()
 {
+	// Watchdog timer setup
+  wdt_disable();
+  wdt_reset();
+  wdt_enable(WDTO_1S);
   // Activity indicator led
   StatusLeds.begin();
 
-  SerialEndpoint.begin();
-
   Mesh.begin(HUB);
   Mesh.openEndpoint(11, receiveMessage);
+
+	SerialEndpoint.begin();
 }
 
 void loop()
