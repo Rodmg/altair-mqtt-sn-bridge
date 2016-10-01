@@ -142,6 +142,7 @@ void SerialEndpointClass::begin()
   Storage.begin();
   slip.begin(115200, attendSerial);
   loadPreferences();
+  sendAck();  // Send ack for flushing any pending messages sent from the gateway before we were ready
   sendConfigReq();
 }
 
