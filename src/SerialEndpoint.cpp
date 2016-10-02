@@ -125,7 +125,7 @@ SerialEndpointClass::SerialEndpointClass()
 void SerialEndpointClass::enterPairMode()
 {
   pairMode = true;
-  Mesh.setPanId(0x00);
+  Mesh.setPanId(0x0000);
   Mesh.setSecurityEnabled(false);
   self->sendAck();
 }
